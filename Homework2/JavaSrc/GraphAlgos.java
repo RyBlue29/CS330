@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class StronglyConnected {
+public class GraphAlgos {
 
     static class Graph {
         int V; // number of vertices
