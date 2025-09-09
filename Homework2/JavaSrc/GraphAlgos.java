@@ -64,7 +64,6 @@ public class GraphAlgos {
             }
             List<List<Integer>> rev = reverseAdj(adj, V);
 
-            // indegree array
             int[] inDegree = new int[V];
             for (int i = 0; i < V; i++) {
                 inDegree[i] = rev.get(i).size();
